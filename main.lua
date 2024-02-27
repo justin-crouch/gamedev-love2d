@@ -1,4 +1,4 @@
-local StateController = require('bin/state_controller')
+local StateController = require('state_controller')
 
 local states = StateController.new('example-states/')
 StateController.add(states, 'state1')
