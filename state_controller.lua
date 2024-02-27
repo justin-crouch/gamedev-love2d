@@ -9,6 +9,7 @@ Controller.new = function(folder)
 end
 
 -- Add a module to a states table
+-- NOTE: name variable is a string that matches the module file's name you want to add
 Controller.add = function(state_list, name)
 	local path = state_list.folder .. name
 	state_list[name] = require( path )
